@@ -40,12 +40,12 @@ public class LightFragment extends Fragment {
         int color = ((ColorDrawable) buttonBackground).getColor();
         switch (color) {
             case Color.RED:
-                light.setBackgroundColor(Color.YELLOW);
-                break;
-            case Color.YELLOW:
                 light.setBackgroundColor(Color.GREEN);
                 break;
             case Color.GREEN:
+                light.setBackgroundColor(Color.YELLOW);
+                break;
+            case Color.YELLOW:
                 light.setBackgroundColor(Color.RED);
                 break;
         }
